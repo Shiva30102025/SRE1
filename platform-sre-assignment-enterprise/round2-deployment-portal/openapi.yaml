@@ -1,0 +1,15 @@
+
+openapi: 3.0.0
+info:
+  title: Deployment Portal API
+  version: 1.0.0
+paths:
+  /register:
+    post:
+      summary: Register new microservice
+  /deploy/{service}:
+    post:
+      summary: Trigger deployment
+  /health:
+    get:
+      summary: Service health dashboard

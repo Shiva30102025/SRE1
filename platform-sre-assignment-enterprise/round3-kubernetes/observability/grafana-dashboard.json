@@ -1,0 +1,9 @@
+
+{
+  "title": "Service Dashboard",
+  "panels": [
+    {"type":"graph","title":"p99 Latency"},
+    {"type":"graph","title":"Error Rate"},
+    {"type":"graph","title":"CPU Usage"}
+  ]
+}
